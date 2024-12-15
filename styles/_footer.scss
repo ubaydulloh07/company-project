@@ -1,0 +1,113 @@
+
+footer {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 10%;
+    background: rgba(247, 255, 236, 1);
+    gap: 15%;
+
+    
+    b {
+        color: black;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color:  rgba(65, 138, 28, 1);
+            transform: scale(1.1);
+            cursor: pointer;
+            
+        }
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+
+
+        &:hover {
+            color:  rgba(65, 138, 28, 1);
+            transform: scale(1.1);
+            cursor: pointer;
+            
+        }
+    }
+
+    .footer-logo {
+
+
+        img {
+            width: 200%;
+        }
+    }
+
+    .footer-link {
+        display: flex;
+       align-items: start;
+       justify-content: start;
+        flex-direction: column;
+        gap: 25px;
+
+
+      
+    }
+
+
+
+    .footer-icons {
+        display: flex;
+      align-items: start;
+      justify-content: start;
+        gap: 25px;
+        flex-direction: column;
+
+
+        .site {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            cursor: pointer;
+
+            .inn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                background-color : black;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: all 0.3 ease;
+
+                &:hover {
+                    transition: all 0.3 ease;
+                    background: rgba(65, 138, 28, 1);
+                    cursor: pointer;
+    
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+        
+    }
+
+
+    .footer-ot {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,40 @@
+@import "./header" ;
+@import "./section" ;
+@import "./footer" ;
+@import "./media" ;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+button {
+    
+
+        background-color: $btn-bg-color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        box-shadow: #4CAF50  7px 7px 0px;
+
+
+        &:hover {
+            opacity: 0.8;
+        }
+       
+}
+
+
+
